@@ -25,7 +25,7 @@ body {
   font-weight: 300;
 }
 
-.serif { font-family: "Playfair Display", Georgia, "Times New Roman", serif; }
+.serif { font-family: "Playfair Display", Georgia, "Times New Roman", serif; font-variant-numeric: lining-nums; font-feature-settings: "lnum" 1; }
 
 /* Cream / light section background */
 .section-light {
