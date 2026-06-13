@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root {
+  --p1-dark:   #0B0B0B;
+  --p1-panel:  #111111;
+  --p1-bar:    #0f0f0f;
+  --p1-border: #222222;
+  --p1-cream:  #F2EDE4;
+  --p1-cream2: #E8E2D8;
+  --p1-green:  #0E3B2E;
+  --p1-gold:   #C9A227;
+  --p1-gold2:  #a8841e;
+  --p1-light:  #F5F5F0;
+  --p1-text:   #F0EDE8;
+  --p1-dim:    #888880;
+  --p1-dark-text: #1A1814;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--p1-dark);
+  color: var(--p1-text);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 300;
+}
+
+.serif { font-family: "Playfair Display", Georgia, "Times New Roman", serif; }
+
+/* Cream / light section background */
+.section-light {
+  background: var(--p1-cream);
+  color: var(--p1-dark-text);
+}
+
+.gold { color: var(--p1-gold); }
+.gold-italic { color: var(--p1-gold); font-style: italic; }
+
+/* Product card */
+.product-card {
+  background: #111111;
+  border: 1px solid #222;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Feature bar icon placeholder */
+.icon-circle {
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--p1-gold);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--p1-gold);
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+/* Logo P monogram box */
+.p1-logo-box {
+  width: 42px;
+  height: 42px;
+  border: 1.5px solid var(--p1-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
