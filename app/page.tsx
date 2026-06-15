@@ -130,8 +130,6 @@ export default function Home() {
               </p>
               <a
                 href="https://primus1vault.com"
-                target="_blank"
-                rel="noopener noreferrer"
                 className="mt-8 inline-block bg-[var(--p1-gold)] px-6 py-2.5 text-[11px] font-semibold tracking-[0.15em] uppercase text-black hover:bg-[var(--p1-gold2)] transition-colors w-fit"
               >
                 Open Vault →
