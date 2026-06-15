@@ -290,6 +290,17 @@ export default function Home() {
           <p className="mt-8 text-[13px] font-light text-[#a8c4b8]">
             Those values remain at the center of everything we build.
           </p>
+          <p className="mt-4 text-[13px] font-light text-[#a8c4b8]">
+            Primus 1 For All extends that mission beyond racing through community engagement, charitable initiatives, and support for causes that matter.{" "}
+            <a
+              href="https://www.youtube.com/@PRIMUS14A"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-[var(--p1-gold)] hover:underline font-medium"
+            >
+              Learn more about the mission →
+            </a>
+          </p>
         </div>
       </section>
     </>
