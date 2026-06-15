@@ -160,25 +160,22 @@ export default function Home() {
               </Link>
             </div>
 
-            {/* Circuit Intelligence */}
+            {/* Advanced Intelligence Initiatives */}
             <div className="product-card p-8 flex flex-col relative">
               <div className="absolute top-4 right-4 text-[9px] tracking-[0.2em] uppercase text-[var(--p1-dim)] border border-[var(--p1-border)] px-2 py-1">
-                Coming Soon
+                In Development
               </div>
               <div className="flex items-center gap-3 mb-6">
-                <div className="icon-circle text-[16px]">◎</div>
+                <div className="icon-circle text-[16px]">◉</div>
                 <div>
-                  <p className="text-[9px] tracking-[0.3em] uppercase text-[var(--p1-gold)]">Coming Soon</p>
-                  <h3 className="serif text-2xl font-semibold text-[var(--p1-text)] leading-tight">Circuit Intelligence</h3>
+                  <p className="text-[9px] tracking-[0.3em] uppercase text-[var(--p1-gold)]">◉ In Development</p>
+                  <h3 className="serif text-2xl font-semibold text-[var(--p1-text)] leading-tight">Advanced Intelligence Initiatives</h3>
                 </div>
               </div>
               <p className="text-[13px] font-light leading-relaxed text-[var(--p1-dim)] flex-1">
-                Track- and circuit-level analytics to identify biases, patterns, and pricing
-                inefficiencies across the racing landscape.
+                Ongoing research focused on performance measurement, pattern recognition, and
+                racing intelligence. New tools and capabilities will be introduced as they mature.
               </p>
-              <button disabled className="mt-8 inline-block border border-[var(--p1-border)] px-6 py-2.5 text-[11px] font-semibold tracking-[0.15em] uppercase text-[var(--p1-dim)] opacity-50 cursor-not-allowed w-fit">
-                Stay Informed
-              </button>
             </div>
           </div>
         </div>
