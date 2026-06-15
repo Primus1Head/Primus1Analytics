@@ -124,9 +124,12 @@ export default function Home() {
                   <h3 className="serif text-2xl font-semibold text-[var(--p1-text)] leading-tight">Primus 1 Vault</h3>
                 </div>
               </div>
+              <p className="text-[14px] font-semibold text-[var(--p1-text)] mb-3">
+                Find out where you actually win.
+              </p>
               <p className="text-[13px] font-light leading-relaxed text-[var(--p1-dim)] flex-1">
-                Upload your wagering history and receive a complete ROI breakdown by bet type,
-                track, surface, class, and more. Identify leaks. Find edges. Bet with clarity.
+                Primus 1 Vault transforms your betting history into a map of strengths, weaknesses,
+                patterns, and opportunities—helping serious horseplayers make more informed decisions.
               </p>
               <a
                 href="https://primus1vault.com"
