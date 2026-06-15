@@ -72,8 +72,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/contact"  className="hover:text-[var(--p1-text)] transition-colors">Contact</Link>
               <a
                 href="https://primus1vault.com"
-                target="_blank"
-                rel="noopener noreferrer"
                 className="border border-[var(--p1-gold)] px-5 py-2 text-[var(--p1-gold)] hover:bg-[var(--p1-gold)] hover:text-black transition-all"
               >
                 Primus 1 Vault →
@@ -105,7 +103,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div>
               <p className="text-[9px] font-semibold uppercase tracking-[0.3em] text-[var(--p1-dim)] mb-4">Products</p>
               <ul className="space-y-2.5 text-[13px] text-[var(--p1-dim)]">
-                <li><a href="https://primus1vault.com" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--p1-gold)] transition-colors">Primus 1 Vault</a></li>
+                <li><a href="https://primus1vault.com" className="hover:text-[var(--p1-gold)] transition-colors">Primus 1 Vault</a></li>
                 <li><span className="opacity-40">Primus One DM</span></li>
                 <li><span className="opacity-40">Circuit Intelligence</span></li>
               </ul>
