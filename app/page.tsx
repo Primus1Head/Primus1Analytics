@@ -136,30 +136,6 @@ export default function Home() {
               </a>
             </div>
 
-            {/* Primus One DM */}
-            <div className="product-card p-8 flex flex-col relative">
-              <div className="absolute top-4 right-4 text-[9px] tracking-[0.2em] uppercase text-[var(--p1-dim)] border border-[var(--p1-border)] px-2 py-1">
-                Invite Only
-              </div>
-              <div className="flex items-center gap-3 mb-6">
-                <div className="icon-circle text-[16px]">◉</div>
-                <div>
-                  <p className="text-[9px] tracking-[0.3em] uppercase text-[var(--p1-gold)]">Private Intelligence</p>
-                  <h3 className="serif text-2xl font-semibold text-[var(--p1-text)] leading-tight">Primus One DM</h3>
-                </div>
-              </div>
-              <p className="text-[13px] font-light leading-relaxed text-[var(--p1-dim)] flex-1">
-                Our internal decision-making engine. Advanced modeling, market analytics, and
-                proprietary signals built for a select few.
-              </p>
-              <Link
-                href="/about"
-                className="mt-8 inline-block border border-[var(--p1-border)] px-6 py-2.5 text-[11px] font-semibold tracking-[0.15em] uppercase text-[var(--p1-dim)] hover:border-[var(--p1-dim)] hover:text-[var(--p1-text)] transition-all w-fit"
-              >
-                Learn More
-              </Link>
-            </div>
-
             {/* Advanced Intelligence Initiatives */}
             <div className="product-card p-8 flex flex-col relative">
               <div className="absolute top-4 right-4 text-[9px] tracking-[0.2em] uppercase text-[var(--p1-dim)] border border-[var(--p1-border)] px-2 py-1">
@@ -176,6 +152,30 @@ export default function Home() {
                 Ongoing research focused on performance measurement, pattern recognition, and
                 racing intelligence. New tools and capabilities will be introduced as they mature.
               </p>
+            </div>
+
+            {/* Circuit Intelligence */}
+            <div className="product-card p-8 flex flex-col relative">
+              <div className="absolute top-4 right-4 text-[9px] tracking-[0.2em] uppercase text-[var(--p1-dim)] border border-[var(--p1-border)] px-2 py-1">
+                Coming Soon
+              </div>
+              <div className="flex items-center gap-3 mb-6">
+                <div className="icon-circle text-[16px]">◎</div>
+                <div>
+                  <p className="text-[9px] tracking-[0.3em] uppercase text-[var(--p1-gold)]">Coming Soon</p>
+                  <h3 className="serif text-2xl font-semibold text-[var(--p1-text)] leading-tight">Circuit Intelligence</h3>
+                </div>
+              </div>
+              <p className="text-[13px] font-light leading-relaxed text-[var(--p1-dim)] flex-1">
+                A deeper view of racing ecosystems—revealing track tendencies, circuit dynamics,
+                and areas where perception and reality diverge.
+              </p>
+              <Link
+                href="/subscribe"
+                className="mt-8 inline-block border border-[var(--p1-border)] px-6 py-2.5 text-[11px] font-semibold tracking-[0.15em] uppercase text-[var(--p1-dim)] hover:border-[var(--p1-gold)] hover:text-[var(--p1-gold)] transition-all w-fit"
+              >
+                Stay Informed →
+              </Link>
             </div>
           </div>
         </div>
