@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About — Primus 1 Analytics",
-  description: "About Primus 1 Analytics — wagering intelligence and data analytics company.",
+  description: "Primus 1 Analytics is a racing intelligence company helping horseplayers make better decisions through disciplined analysis and evidence-based insights.",
 };
 
 export default function About() {
